@@ -134,7 +134,11 @@ nav li:hover {
 .skill .container .item:hover {
     color: var(--therd);
     background-color: var(--mainColor);
-    margin: 0 0 0 10px;
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
 }
 
 .skill .container .item:hover i {
@@ -207,8 +211,13 @@ nav li:hover {
     background-color: var(--mainColor);
     width: 3em;
     height: 3px;
-    left: 48%;
+    left: 50%;
     bottom: 0;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
 }
 
 .categories .caption .head::before,
@@ -220,8 +229,13 @@ nav li:hover {
     background-color: var(--mainColor);
     width: 6em;
     height: 1px;
-    left: 46%;
+    left: 50%;
     bottom: 7px;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
 }
 
 
@@ -301,11 +315,11 @@ nav li:hover {
 
 .instructors .card .icons {
     bottom: 0;
-    transform: translate(50%, -100%);
-    -webkit-transform: translate(50%, -100%);
-    -moz-transform: translate(50%, -100%);
-    -ms-transform: translate(50%, -100%);
-    -o-transform: translate(50%, -100%);
+    transform: translate(50%,-100% );
+    -webkit-transform: translate(50%,-100% );
+    -moz-transform: translate(50%,-100% );
+    -ms-transform: translate(50%,-100% );
+    -o-transform: translate(50%,-100% );
 }
 
 .instructors .card:hover img {
@@ -315,6 +329,7 @@ nav li:hover {
     -ms-transform: scale(1.1);
     -o-transform: scale(1.1);
 }
+
 
 /* testimonial */
 .testimonial .container .info img {

@@ -18,5 +18,16 @@ $('.testimonial-carousel').owlCarousel({
     autoplayTimeout:2000,
     dots:true,
     margin:20,
+    responsive: {
+        0:{
+            items:1
+        },
+        768:{
+            items:2
+        },
+        992:{
+            items:3
+        }
+    }
 });
 
